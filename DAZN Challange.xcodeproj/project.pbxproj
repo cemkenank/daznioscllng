@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97195185D6CFB34E2F4D6D23 /* Pods_DAZN_Challange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17EBEE4FB547894D2F9B2CC /* Pods_DAZN_Challange.framework */; };
+		CE11EA21240E59A60097A27D /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11EA20240E59A60097A27D /* UIColor+Extensions.swift */; };
+		CE11EA23240E697F0097A27D /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11EA22240E697F0097A27D /* UIButton+Extensions.swift */; };
+		CE11EA2A240E7CF80097A27D /* ScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11EA28240E7CF80097A27D /* ScoreTableViewCell.swift */; };
+		CE11EA2B240E7CF80097A27D /* ScoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE11EA29240E7CF80097A27D /* ScoreTableViewCell.xib */; };
 		CE712E60240BC04B00328CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712E5F240BC04B00328CF2 /* AppDelegate.swift */; };
 		CE712E62240BC04B00328CF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712E61240BC04B00328CF2 /* SceneDelegate.swift */; };
-		CE712E64240BC04B00328CF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712E63240BC04B00328CF2 /* ViewController.swift */; };
 		CE712E67240BC04B00328CF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE712E65240BC04B00328CF2 /* Main.storyboard */; };
 		CE712E69240BC04C00328CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE712E68240BC04C00328CF2 /* Assets.xcassets */; };
 		CE712E6C240BC04C00328CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE712E6A240BC04C00328CF2 /* LaunchScreen.storyboard */; };
+		CE712E76240BC0A100328CF2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712E75240BC0A100328CF2 /* Constants.swift */; };
+		CE712E7A240BC0C600328CF2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712E79240BC0C600328CF2 /* Item.swift */; };
+		CE712E7D240BC0EE00328CF2 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712E7C240BC0EE00328CF2 /* NewsViewModel.swift */; };
+		CE712E81240BC52D00328CF2 /* ScoresViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712E80240BC52D00328CF2 /* ScoresViewModel.swift */; };
+		CE712E84240BC71000328CF2 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712E83240BC71000328CF2 /* Match.swift */; };
+		CE759631240DBAEF0057C3D2 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75962F240DBAEF0057C3D2 /* NewsTableViewCell.swift */; };
+		CE759632240DBAEF0057C3D2 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE759630240DBAEF0057C3D2 /* NewsTableViewCell.xib */; };
+		CE7B976E240FC4C60004CB1E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B976D240FC4C60004CB1E /* TableViewController.swift */; };
+		CE7B977124104ACD0004CB1E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B977024104ACD0004CB1E /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8077DBE76D04E3E19425EB4F /* Pods-DAZN Challange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAZN Challange.release.xcconfig"; path = "Target Support Files/Pods-DAZN Challange/Pods-DAZN Challange.release.xcconfig"; sourceTree = "<group>"; };
+		A17EBEE4FB547894D2F9B2CC /* Pods_DAZN_Challange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DAZN_Challange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE11EA20240E59A60097A27D /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		CE11EA22240E697F0097A27D /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		CE11EA28240E7CF80097A27D /* ScoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTableViewCell.swift; sourceTree = "<group>"; };
+		CE11EA29240E7CF80097A27D /* ScoreTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScoreTableViewCell.xib; sourceTree = "<group>"; };
 		CE712E5C240BC04B00328CF2 /* DAZN Challange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DAZN Challange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE712E5F240BC04B00328CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE712E61240BC04B00328CF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE712E63240BC04B00328CF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE712E66240BC04B00328CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE712E68240BC04C00328CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE712E6B240BC04C00328CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE712E6D240BC04C00328CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE712E75240BC0A100328CF2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CE712E79240BC0C600328CF2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CE712E7C240BC0EE00328CF2 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		CE712E80240BC52D00328CF2 /* ScoresViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresViewModel.swift; sourceTree = "<group>"; };
+		CE712E83240BC71000328CF2 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		CE75962F240DBAEF0057C3D2 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		CE759630240DBAEF0057C3D2 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		CE7B976D240FC4C60004CB1E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CE7B977024104ACD0004CB1E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FD342378BA445F8D21D7D6AF /* Pods-DAZN Challange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAZN Challange.debug.xcconfig"; path = "Target Support Files/Pods-DAZN Challange/Pods-DAZN Challange.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97195185D6CFB34E2F4D6D23 /* Pods_DAZN_Challange.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FE8714C90887E28638A9A96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD342378BA445F8D21D7D6AF /* Pods-DAZN Challange.debug.xcconfig */,
+				8077DBE76D04E3E19425EB4F /* Pods-DAZN Challange.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE11EA1F240E59980097A27D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE11EA20240E59A60097A27D /* UIColor+Extensions.swift */,
+				CE11EA22240E697F0097A27D /* UIButton+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		CE712E53240BC04B00328CF2 = {
 			isa = PBXGroup;
 			children = (
 				CE712E5E240BC04B00328CF2 /* DAZN Challange */,
 				CE712E5D240BC04B00328CF2 /* Products */,
+				5FE8714C90887E28638A9A96 /* Pods */,
+				EFDE1A35B485EE717F48EE43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +105,114 @@
 		CE712E5E240BC04B00328CF2 /* DAZN Challange */ = {
 			isa = PBXGroup;
 			children = (
-				CE712E5F240BC04B00328CF2 /* AppDelegate.swift */,
-				CE712E61240BC04B00328CF2 /* SceneDelegate.swift */,
-				CE712E63240BC04B00328CF2 /* ViewController.swift */,
-				CE712E65240BC04B00328CF2 /* Main.storyboard */,
-				CE712E68240BC04C00328CF2 /* Assets.xcassets */,
-				CE712E6A240BC04C00328CF2 /* LaunchScreen.storyboard */,
+				CE11EA1F240E59980097A27D /* Extensions */,
+				CE712E74240BC08A00328CF2 /* Constants */,
+				CE712E77240BC0AF00328CF2 /* Model */,
+				CE712E7E240BC10700328CF2 /* View */,
+				CE712E7B240BC0D900328CF2 /* ViewModel */,
+				CE712E7F240BC10F00328CF2 /* Controller */,
+				CE712E73240BC06E00328CF2 /* Support Files */,
 				CE712E6D240BC04C00328CF2 /* Info.plist */,
 			);
 			path = "DAZN Challange";
+			sourceTree = "<group>";
+		};
+		CE712E73240BC06E00328CF2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE712E5F240BC04B00328CF2 /* AppDelegate.swift */,
+				CE712E61240BC04B00328CF2 /* SceneDelegate.swift */,
+				CE712E65240BC04B00328CF2 /* Main.storyboard */,
+				CE712E68240BC04C00328CF2 /* Assets.xcassets */,
+				CE712E6A240BC04C00328CF2 /* LaunchScreen.storyboard */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		CE712E74240BC08A00328CF2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CE712E75240BC0A100328CF2 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CE712E77240BC0AF00328CF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE712E82240BC70500328CF2 /* Scores */,
+				CE712E78240BC0B400328CF2 /* News */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE712E78240BC0B400328CF2 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				CE712E79240BC0C600328CF2 /* Item.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		CE712E7B240BC0D900328CF2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE712E7C240BC0EE00328CF2 /* NewsViewModel.swift */,
+				CE712E80240BC52D00328CF2 /* ScoresViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE712E7E240BC10700328CF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B976F241012BE0004CB1E /* ScoreTableViewCell */,
+				CE7B9769240F99170004CB1E /* NewsTableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE712E7F240BC10F00328CF2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B976D240FC4C60004CB1E /* TableViewController.swift */,
+				CE7B977024104ACD0004CB1E /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE712E82240BC70500328CF2 /* Scores */ = {
+			isa = PBXGroup;
+			children = (
+				CE712E83240BC71000328CF2 /* Match.swift */,
+			);
+			path = Scores;
+			sourceTree = "<group>";
+		};
+		CE7B9769240F99170004CB1E /* NewsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE75962F240DBAEF0057C3D2 /* NewsTableViewCell.swift */,
+				CE759630240DBAEF0057C3D2 /* NewsTableViewCell.xib */,
+			);
+			path = NewsTableViewCell;
+			sourceTree = "<group>";
+		};
+		CE7B976F241012BE0004CB1E /* ScoreTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE11EA28240E7CF80097A27D /* ScoreTableViewCell.swift */,
+				CE11EA29240E7CF80097A27D /* ScoreTableViewCell.xib */,
+			);
+			path = ScoreTableViewCell;
+			sourceTree = "<group>";
+		};
+		EFDE1A35B485EE717F48EE43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A17EBEE4FB547894D2F9B2CC /* Pods_DAZN_Challange.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE712E70240BC04C00328CF2 /* Build configuration list for PBXNativeTarget "DAZN Challange" */;
 			buildPhases = (
+				F6C903BAA33A4D7E4B5F584A /* [CP] Check Pods Manifest.lock */,
 				CE712E58240BC04B00328CF2 /* Sources */,
 				CE712E59240BC04B00328CF2 /* Frameworks */,
 				CE712E5A240BC04B00328CF2 /* Resources */,
+				655CD056665F8D6FD5BC2FEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +275,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE11EA2B240E7CF80097A27D /* ScoreTableViewCell.xib in Resources */,
 				CE712E6C240BC04C00328CF2 /* LaunchScreen.storyboard in Resources */,
 				CE712E69240BC04C00328CF2 /* Assets.xcassets in Resources */,
+				CE759632240DBAEF0057C3D2 /* NewsTableViewCell.xib in Resources */,
 				CE712E67240BC04B00328CF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		655CD056665F8D6FD5BC2FEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DAZN Challange/Pods-DAZN Challange-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DAZN Challange/Pods-DAZN Challange-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DAZN Challange/Pods-DAZN Challange-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6C903BAA33A4D7E4B5F584A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DAZN Challange-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE712E58240BC04B00328CF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE712E64240BC04B00328CF2 /* ViewController.swift in Sources */,
+				CE712E7A240BC0C600328CF2 /* Item.swift in Sources */,
+				CE7B976E240FC4C60004CB1E /* TableViewController.swift in Sources */,
+				CE11EA23240E697F0097A27D /* UIButton+Extensions.swift in Sources */,
+				CE712E7D240BC0EE00328CF2 /* NewsViewModel.swift in Sources */,
+				CE712E81240BC52D00328CF2 /* ScoresViewModel.swift in Sources */,
+				CE712E84240BC71000328CF2 /* Match.swift in Sources */,
 				CE712E60240BC04B00328CF2 /* AppDelegate.swift in Sources */,
 				CE712E62240BC04B00328CF2 /* SceneDelegate.swift in Sources */,
+				CE11EA21240E59A60097A27D /* UIColor+Extensions.swift in Sources */,
+				CE11EA2A240E7CF80097A27D /* ScoreTableViewCell.swift in Sources */,
+				CE7B977124104ACD0004CB1E /* DetailViewController.swift in Sources */,
+				CE712E76240BC0A100328CF2 /* Constants.swift in Sources */,
+				CE759631240DBAEF0057C3D2 /* NewsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +486,7 @@
 		};
 		CE712E71240BC04C00328CF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD342378BA445F8D21D7D6AF /* Pods-DAZN Challange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +505,7 @@
 		};
 		CE712E72240BC04C00328CF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8077DBE76D04E3E19425EB4F /* Pods-DAZN Challange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
